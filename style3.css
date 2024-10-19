@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-image: url("1.png");
+}
+
+h1{
+    color:rgb(73, 113, 205);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 a{
+    color: aliceblue;
+}
