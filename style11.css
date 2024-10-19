@@ -1,0 +1,128 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    
+    margin: auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    background-image: url("1.png");
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color:rgb(73, 113, 205);
+    font-family:'Times New Roman';
+    
+   
+}
+
+label {
+    margin-right: 10px;
+}
+
+form{
+    padding-inline: 2px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(73, 113, 205);;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(73, 113, 205);;
+}
+
+.hidden {
+    display: none;
+}
+
+.teacher {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+h2{
+    
+    padding-left: 320px;
+    color:#ddd;
+}
+    
+
+h3{
+    color: rgb(73, 113, 205);
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 290px;
+    font-family: sans-serif;
+    text-align: center;
+    height:30px;
+    text-align: center;
+
+}
+
+
+.rightf{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffe8;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    width: 50%;
+    
+
+}
+.leftf{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffe8;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    
+}
+.container2f {
+    text-align: center;
+    display: flex;
+    color: var(--color);
+    width: 100%;
+    
+    background-image: url(furina.png);
+    background-size:cover;
+    background-position: top;  
+    background-attachment: fixed;
+}
+
+.f{
+    border: 2px solid rgb(73, 113, 205);
+    background-color: rgb(73, 113, 205);
+    color: #ddd;
+    text-decoration: none;
+    border-radius: 5px;
+    width:30px;
+    height: 15px;
+}
