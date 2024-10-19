@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection and Teacher Assignment System</title>
+    <link rel="stylesheet" href="style11.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="padding:30px;">Course Selection and Teacher Assignment System</h1>
+        
+        <div id="course-selection">
+            <h2>Course Selection</h2><br>
+
+            <div class="container2f">
+                <div class="leftf"><h3>Theory Courses (Select 4)</h3><br>
+                <form id="theory-form">
+                <label><input type="checkbox" value="Introduction to Computer Science"> Introduction to Computer Science</label><br>
+                <label><input type="checkbox" value="Data Structures and Algorithms"> Data Structures and Algorithms</label><br>
+                <label><input type="checkbox" value="Database Management Systems"> Database Management Systems</label><br>
+                <label><input type="checkbox" value="Web Development"> Web Development</label><br>
+                <label><input type="checkbox" value="Machine Learning"> Machine Learning</label><br>
+                <label><input type="checkbox" value="Software Engineering"> Software Engineering</label><br>
+                <label><input type="checkbox" value="Operating Systems"> Operating Systems</label><br>
+                <label><input type="checkbox" value="Artificial Intelligence"> Artificial Intelligence</label><br>
+            </form>
+        </div>
+                <div class="rightf">
+                     <h3>Lab Courses (Select 2)</h3>
+                        <form id="lab-form">
+                            <label><input type="checkbox" value="Web Development Lab"> Web Development Lab</label><br>
+                            <label><input type="checkbox" value="Database Lab"> Database Lab</label><br>
+                            <label><input type="checkbox" value="Machine Learning Lab"> Machine Learning Lab</label><br>
+                        </form>   
+                </div>
+              </div>
+
+
+            <br>
+            <br><br><br>
+            <button id="submit-selection">Submit Selection</button>
+        </div>
+
+        <div id="teacher-profiles" class="hidden">
+            <h2>Teacher Profiles</h2>
+            <div class="teacher" data-id="0">
+                <h3>Dr. John Smith</h3>
+                <p>Rating: 4.5</p>
+                <p>Research Projects: AI in Education, Data Mining Techniques</p>
+                <p>Academic Background: PhD in Computer Science</p>
+                <textarea placeholder="Leave your feedback here..."></textarea>
+                <a href="done.html" class="f">Submit</a>
+            </div>
+            <div class="teacher" data-id="1">
+                <h3>Prof. Jane Doe</h3>
+                <p>Rating: 4.8</p>
+                <p>Research Projects: Web Technologies, Cybersecurity</p>
+                <p>Academic Background: MSc in Information Technology</p>
+                <textarea placeholder="Leave your feedback here..."></textarea>
+                <a href="done.html" class="f">Submit</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
